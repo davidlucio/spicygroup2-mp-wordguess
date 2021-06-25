@@ -1,2 +1,39 @@
+<<<<<<< HEAD
+h1 {
+    width: 300px;
+    border: 100px 100px 100px 100px blueviolet;
+    padding: 50px;
+    margin: auto;
+    background-color:chocolate;
+    border-collapse: separate;
+    
+}
+
+body {
+    background-color:moccasin;
+}
+
+h3 {
+    width: 150px;
+    border: 75px 75px 75px 75px blueviolet;
+    border-collapse: separate;
+    border-spacing: 25px 50px 25px 50px;
+    padding: 50px;
+    margin: auto;
+    background-color: chocolate;
+    text-align: center;
 
 
+}
+
+p {
+    width: 150px;
+    border: 75px 75px 75px 75px blueviolet;
+    margin: auto;
+    background-color: chocolate;
+    text-align: center;
+}
+=======
+
+
+>>>>>>> 02f6ced883a0f0400525b12315d04febecdb7023
