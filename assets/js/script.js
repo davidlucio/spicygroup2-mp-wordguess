@@ -1,6 +1,6 @@
 // Decalre global variables
 var playButton = document.getElementById("button");
-var gameDisplay = document.querySelector("#game-display ul");
+var gameDisplay = document.querySelector(".game-display ul");
 var timer = document.querySelector(".timer");
 
 var possibleWords = ["dog", "cat", "fish", "taco"];
@@ -15,7 +15,18 @@ function runTheGame() {
     // Select a random word
     let randomWord = possibleWords[ (Math.floor(Math.random() * possibleWords.length) ) ];
     console.log(randomWord);
+
+    for(i=0; i < randomWord.length; i++){
+
+        var li = document.createElement("li");
+        li.textContent = "";
+        li.setAttribute("letter-index", i);
+        gameDisplay.appendChild(li);
     }
+
+        // While notgameover
+        // have it break down the word and let them input on downpress (burt)
+}
 
 // Kaleb's stuff
 var timeLeft = 10;

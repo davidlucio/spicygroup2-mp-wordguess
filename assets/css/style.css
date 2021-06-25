@@ -33,7 +33,12 @@ p {
     background-color: chocolate;
     text-align: center;
 }
-=======
 
-
->>>>>>> 02f6ced883a0f0400525b12315d04febecdb7023
+li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    margin: 2px;
+    border-bottom: 2px solid black;
+}
