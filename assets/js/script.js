@@ -15,20 +15,19 @@ function runTheGame() {
     // Select a random word
     let randomWord = possibleWords[ (Math.floor(Math.random() * possibleWords.length) ) ];
     console.log(randomWord);
-
     }
 
-    
-    var timeLeft = 10;
-    function setTime() {
-        
-        var timerInterval = setInterval(function() {
-          timeLeft--;
-          timer.textContent = timeLeft;
-      
-          if(timeLeft === 0) {
-            clearInterval(timerInterval);
-    
-          }
-        }, 1000);
+// Kaleb's stuff
+var timeLeft = 10;
+function setTime() {
+
+    var timerInterval = setInterval(function() {
+      timeLeft--;
+      timer.textContent = timeLeft;
+
+      if(timeLeft === 0) {
+        clearInterval(timerInterval);
+
       }
+    }, 1000);
+  }
